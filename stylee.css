@@ -1,0 +1,121 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.container {
+  width: 100%;
+  display: flex;
+}
+
+.container .formum {
+  height: 100vh;
+  width: 55%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.container .metin {
+  width: 45%;
+  height: 100vh;
+  background: linear-gradient(170deg, #8e8df9, #19445e);
+}
+
+.container .formum h1 {
+  font-size: 45px;
+  margin-bottom: 40px;
+}
+
+.container .formum form {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+form .giris {
+  width: 60%;
+  margin: auto;
+  height: 60px;
+  margin-bottom: 30px;
+  border-radius: 20px;
+  position: relative;
+  box-shadow: 20px 20px 20px #8e1df7, -10px -10px 20 #19025e;
+}
+
+form .giris input {
+  width: 100%;
+  height: 100%;
+  border-radius: 20px;
+  outline: none;
+  border: none;
+
+  background-color: aliceblue;
+  padding: 20px 70px;
+  font-size: 18px;
+}
+
+form .giris i {
+  position: absolute;
+  color: #8e1df7;
+  font-size: 20px;
+  top: 30%;
+  left: 20px;
+}
+
+form .unuttum {
+  width: 60%;
+  margin: 0 auto 40px;
+  display: flex;
+  align-items: center;
+}
+
+form .unuttum input {
+  margin: 0 5px 0 20px;
+}
+
+form .unuttum span {
+  margin-top: 2px;
+  font-size: 18px;
+}
+
+form .btn {
+  color: white;
+  font-size: 20px;
+  width: 250px;
+  margin: auto;
+  background: orangered;
+  padding: 15px;
+  border-radius: 10px;
+  cursor: pointer;
+  border: none;
+  margin-bottom: 20px;
+}
+
+form .hatirla {
+  text-align: center;
+  font-size: 15px;
+}
+
+form .hatirla a {
+  font-size: 16px;
+  text-decoration: none;
+  color: #4800f0;
+}
+
+.metin {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: aliceblue;
+  font-size: 30px;
+}
+
+form .btn:hover {
+  color: white;
+  background: #19445e;
+  transform: scale(1.05);
+}
